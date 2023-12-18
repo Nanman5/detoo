@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --fontColorPrimary: #ffffff;
+  --fontColorSecundary: #000000;
+  --bgSlider: url("./assets/images/bgSlide.svg#svgView(preserveAspectRatio(none))");
+  --bgSliderDark: url("./assets/images/bgSlideDark.svg#svgView(preserveAspectRatio(none))");
+  --bgMobile: url("./assets/images/bgMobile.svg#svgView(preserveAspectRatio(none))");
+  --bgMobileDark: url("./assets/images/bgMobileDark.svg#svgView(preserveAspectRatio(none))");
+  --doc-height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Hind";
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Hind";
+  src: url("./assets/fonts/Hind/Hind-Regular.ttf");
+}
